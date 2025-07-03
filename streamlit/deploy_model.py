@@ -1,12 +1,9 @@
 import numpy as np
-import joblib 
+import joblib
 import streamlit as st
-# import cloudpickle
 
 #load the trained model
-best_model=joblib.load("rf_clf_4.pkl")
-# with open("model/rf_clf_4.pkl", "rb") as f:
-#     best_model = cloudpickle.load(f)
+best_model=joblib.load("model/rf_clf_4.pkl")
 
 #streamlit app title
 
