@@ -3,7 +3,7 @@ import joblib
 import streamlit as st
 
 #load the trained model
-best_model=joblib.load("rf_clf_4.pkl")
+best_model=joblib.load("rf_clf_3.pkl")
 
 #streamlit app title
 
